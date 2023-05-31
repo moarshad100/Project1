@@ -1,8 +1,8 @@
 # Project1
 ## HTML Project
-Mohammed Arshad Mohamed Jamal
+### Mohammed Arshad Mohamed Jamal
 #
-## <u>Search Engine Optimization</u>
+## Search Engine Optimization
 
 ### User Story
 <ul>
