@@ -12,16 +12,16 @@
 
 ### Acceptance Criteria
 <ul>
-<li>View the source code</li>
-<li>Find semantic HTML elements</li> 
-<li>View structure of HTML elements</li>
-<li>Find that the element follow a logic structure independent of styling and positioning</li>
-<li>View the image elements</li>
-<li>Find accessible alt attributes</li>
+<li>Viewed the source code</li>
+<li>Found semantic HTML elements</li> 
+<li>Viewed structure of HTML elements</li>
+<li>Refactored the code sothat the element follow a logic structure independent of styling and positioning</li>
+<li>Viewed the image elements</li>
+<li>Added accessible alt attributes</li>
 <li>View the heading attributes</li>
 <li>They fall in sequential order</li>
-<li>View the title element</li>
-<li>Find a concise, descriptive title</li>
+<li>Viewed the title element</li>
+<li>Found a concise, descriptive title - Horiseon, Digital Marketing</li>
 </ul>
 
 <p>References:</p>
