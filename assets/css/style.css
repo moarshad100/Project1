@@ -1,13 +1,16 @@
+/* Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Selects body element */
 body {
     background-color: #797a77;
 }
 
+/*selects header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +19,18 @@ header {
 
 }
 
+/* Selects all h1 elements inside header  */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* selects the class seo inside h1 element inside the header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* selects all the div inside the header */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +39,29 @@ header div {
     font-size: 20px;
 }
 
+/* selects unordered list inside the div element which is inside the header */
 header div ul {
     list-style-type: none;
 }
 
+/* selects the list element inside unordered list element inside div that is inside header */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* selects all 'a' elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* selects all 'p' elements */
 p {
     font-size: 16px;
 }
 
+/* selects the hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +73,26 @@ p {
     alt: "something";
 }
 
+/* selects float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* selects float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* selects content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* selects benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,54 +104,64 @@ p {
     background-color: #2589bd;
 }
 
+/* selects benefit-lead class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* selects h3 element inside benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* selects img elements inside benifit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selects benefit-brand class */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* selects all h3 inside benefit-brand class  */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* selects img element inside class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selects benefit-cost class */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* selects all h3 inside benefit-cost class  */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* selects img element inside benefit-cost class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* selects search-engine-optimization class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -146,6 +171,18 @@ p {
     color: #ffffff;
 }
 
+/* selects all img elements inside search-engine-optimization class */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* selects all h2 inside search-engine-optimization class */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* selects online-reputation-management class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -155,6 +192,18 @@ p {
     color: #ffffff;
 }
 
+/* selects all img elements inside online-reputation-management class */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* selects all h2 inside online-reputation-management class */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* selects ocial-media-marketing class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,33 +213,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* selects all img elements inside ocial-media-marketing class */
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* selects all h2 inside ocial-media-marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* selects footer element */
 footer {
     padding: 30px;
     clear: both;
@@ -198,6 +232,7 @@ footer {
     text-align: center;
 }
 
+/* selects all h2 inside footer */
 footer h2 {
     font-size: 20px;
 }
