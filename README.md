@@ -1,5 +1,5 @@
 # Project1 
-## HTML Project
+## HTML and CSS
 ### Mohammed Arshad Mohamed Jamal
 
 ### User Story
@@ -23,3 +23,10 @@
 <li>View the title element</li>
 <li>Find a concise, descriptive title</li>
 </ul>
+
+<p>References:</p>
+<ul>
+<li>
+I have referred from the class module activities
+</li>
+<li> Also from video recordings</li>
